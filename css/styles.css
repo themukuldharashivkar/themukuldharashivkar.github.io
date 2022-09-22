@@ -57,12 +57,12 @@
   --bs-body-bg: #fff;
 }
 
-#submitButton{
+/* #submitButton{
   background-color: #9625ff;
 }
 #submitButton:hover{
   background-color: #460088;
-}
+} */
 
 *,
 *::before,
@@ -11364,6 +11364,7 @@ html {
 
 .btn-social {
   border-radius: 100%;
+  border-color: #460088;
   display: inline-flex;
   width: 3.25rem;
   height: 3.25rem;
@@ -11371,6 +11372,11 @@ html {
   justify-content: center;
   align-items: center;
 }
+
+.social-purple-icons{
+  color: #460088;
+}
+
 
 #mainNav {
   padding-top: 1rem;
@@ -11501,7 +11507,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(175, 180, 255, 0.7);
+  background-color: rgba(93, 102, 170, 0.7);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -11529,8 +11535,8 @@ html {
 .footer {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: #A66CFF;
-  color: #fff;
+  background-color: #aaaaff;
+  color: #460088;
 }
 
 .copyright {
@@ -11543,4 +11549,49 @@ hr{
   border-bottom: none;
   width: 20%;
   margin: 40px auto;
+}
+
+
+.demo-btn{
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Arial;
+  color: #460088;
+  font-size: 20px;
+  /* background: #460088; */
+  padding: 10px 20px 10px 20px;
+  border: solid #3c1f8c 2px;
+  text-decoration: none;
+}
+.demo-btn:hover{
+  background: #693cfc;
+  text-decoration: none;
+  color: #fff;
+}
+
+.send-btn{
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Arial;
+  color: #460088;
+  font-size: 20px;
+  background: #fff;
+  padding: 10px 20px 10px 20px;
+  border: solid #3c1f8c 2px;
+  text-decoration: none;
+}
+.send-btn:hover{
+  background: #693cfc;
+  text-decoration: none;
+  color: #fff;
+}
+
+.plus-sign{
+  color: #460088;
+}
+
+.portfolio-border-purple{
+  border-color: #A66CFF;
 }
